@@ -1,10 +1,3 @@
-import sys
-import os
-
-# Establecer el sistema para usar UTF-8
-if os.name == "nt":
-    os.system("chcp 65001")  # En Windows, cambia el código de página a UTF-8
-
 
 # Diccionario con las letras y los emojis de frutas/vegetales
 frutero = {
